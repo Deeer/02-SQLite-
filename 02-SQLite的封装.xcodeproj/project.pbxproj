@@ -21,6 +21,9 @@
 		08E14B5C192DDD5100234E45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E14B3E192DDD5100234E45 /* UIKit.framework */; };
 		08E14B64192DDD5100234E45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08E14B62192DDD5100234E45 /* InfoPlist.strings */; };
 		08E14B66192DDD5100234E45 /* _1_SQLite_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E14B65192DDD5100234E45 /* _1_SQLite_____Tests.m */; };
+		08E14B70192DDE1900234E45 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E14B6F192DDE1900234E45 /* libsqlite3.dylib */; };
+		08E14B73192DEB1200234E45 /* IWStudentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E14B72192DEB1200234E45 /* IWStudentTool.m */; };
+		08E14B76192DEB4300234E45 /* IWStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E14B75192DEB4300234E45 /* IWStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08E14B37192DDD5100234E45 /* 01-SQLite的基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-SQLite的基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E14B37192DDD5100234E45 /* 02-SQLite的封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-SQLite的封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E14B3A192DDD5100234E45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08E14B3C192DDD5100234E45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		08E14B3E192DDD5100234E45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		08E14B42192DDD5100234E45 /* 01-SQLite的基本使用-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-SQLite的基本使用-Info.plist"; sourceTree = "<group>"; };
+		08E14B42192DDD5100234E45 /* 02-SQLite的封装-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-SQLite的封装-Info.plist"; sourceTree = "<group>"; };
 		08E14B44192DDD5100234E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08E14B46192DDD5100234E45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08E14B48192DDD5100234E45 /* 01-SQLite的基本使用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01-SQLite的基本使用-Prefix.pch"; sourceTree = "<group>"; };
+		08E14B48192DDD5100234E45 /* 02-SQLite的封装-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02-SQLite的封装-Prefix.pch"; sourceTree = "<group>"; };
 		08E14B49192DDD5100234E45 /* IWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWAppDelegate.h; sourceTree = "<group>"; };
 		08E14B4A192DDD5100234E45 /* IWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWAppDelegate.m; sourceTree = "<group>"; };
 		08E14B4D192DDD5100234E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08E14B4F192DDD5100234E45 /* IWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWViewController.h; sourceTree = "<group>"; };
 		08E14B50192DDD5100234E45 /* IWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWViewController.m; sourceTree = "<group>"; };
 		08E14B52192DDD5100234E45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		08E14B58192DDD5100234E45 /* 01-SQLite的基本使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-SQLite的基本使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E14B58192DDD5100234E45 /* 02-SQLite的封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-SQLite的封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E14B59192DDD5100234E45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		08E14B61192DDD5100234E45 /* 01-SQLite的基本使用Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-SQLite的基本使用Tests-Info.plist"; sourceTree = "<group>"; };
+		08E14B61192DDD5100234E45 /* 02-SQLite的封装Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "02-SQLite的封装Tests-Info.plist"; sourceTree = "<group>"; };
 		08E14B63192DDD5100234E45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08E14B65192DDD5100234E45 /* _1_SQLite_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_SQLite_____Tests.m"; sourceTree = "<group>"; };
+		08E14B6F192DDE1900234E45 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		08E14B71192DEB1200234E45 /* IWStudentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWStudentTool.h; sourceTree = "<group>"; };
+		08E14B72192DEB1200234E45 /* IWStudentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWStudentTool.m; sourceTree = "<group>"; };
+		08E14B74192DEB4300234E45 /* IWStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWStudent.h; sourceTree = "<group>"; };
+		08E14B75192DEB4300234E45 /* IWStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E14B70192DDE1900234E45 /* libsqlite3.dylib in Frameworks */,
 				08E14B3D192DDD5100234E45 /* CoreGraphics.framework in Frameworks */,
 				08E14B3F192DDD5100234E45 /* UIKit.framework in Frameworks */,
 				08E14B3B192DDD5100234E45 /* Foundation.framework in Frameworks */,
@@ -82,8 +91,8 @@
 		08E14B2E192DDD5100234E45 = {
 			isa = PBXGroup;
 			children = (
-				08E14B40192DDD5100234E45 /* 01-SQLite的基本使用 */,
-				08E14B5F192DDD5100234E45 /* 01-SQLite的基本使用Tests */,
+				08E14B40192DDD5100234E45 /* 02-SQLite的封装 */,
+				08E14B5F192DDD5100234E45 /* 02-SQLite的封装Tests */,
 				08E14B39192DDD5100234E45 /* Frameworks */,
 				08E14B38192DDD5100234E45 /* Products */,
 			);
@@ -92,8 +101,8 @@
 		08E14B38192DDD5100234E45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08E14B37192DDD5100234E45 /* 01-SQLite的基本使用.app */,
-				08E14B58192DDD5100234E45 /* 01-SQLite的基本使用Tests.xctest */,
+				08E14B37192DDD5100234E45 /* 02-SQLite的封装.app */,
+				08E14B58192DDD5100234E45 /* 02-SQLite的封装Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +110,7 @@
 		08E14B39192DDD5100234E45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				08E14B6F192DDE1900234E45 /* libsqlite3.dylib */,
 				08E14B3A192DDD5100234E45 /* Foundation.framework */,
 				08E14B3C192DDD5100234E45 /* CoreGraphics.framework */,
 				08E14B3E192DDD5100234E45 /* UIKit.framework */,
@@ -109,7 +119,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		08E14B40192DDD5100234E45 /* 01-SQLite的基本使用 */ = {
+		08E14B40192DDD5100234E45 /* 02-SQLite的封装 */ = {
 			isa = PBXGroup;
 			children = (
 				08E14B49192DDD5100234E45 /* IWAppDelegate.h */,
@@ -119,34 +129,40 @@
 				08E14B50192DDD5100234E45 /* IWViewController.m */,
 				08E14B52192DDD5100234E45 /* Images.xcassets */,
 				08E14B41192DDD5100234E45 /* Supporting Files */,
+				08E14B71192DEB1200234E45 /* IWStudentTool.h */,
+				08E14B72192DEB1200234E45 /* IWStudentTool.m */,
+				08E14B74192DEB4300234E45 /* IWStudent.h */,
+				08E14B75192DEB4300234E45 /* IWStudent.m */,
 			);
+			name = "02-SQLite的封装";
 			path = "01-SQLite的基本使用";
 			sourceTree = "<group>";
 		};
 		08E14B41192DDD5100234E45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08E14B42192DDD5100234E45 /* 01-SQLite的基本使用-Info.plist */,
+				08E14B42192DDD5100234E45 /* 02-SQLite的封装-Info.plist */,
 				08E14B43192DDD5100234E45 /* InfoPlist.strings */,
 				08E14B46192DDD5100234E45 /* main.m */,
-				08E14B48192DDD5100234E45 /* 01-SQLite的基本使用-Prefix.pch */,
+				08E14B48192DDD5100234E45 /* 02-SQLite的封装-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		08E14B5F192DDD5100234E45 /* 01-SQLite的基本使用Tests */ = {
+		08E14B5F192DDD5100234E45 /* 02-SQLite的封装Tests */ = {
 			isa = PBXGroup;
 			children = (
 				08E14B65192DDD5100234E45 /* _1_SQLite_____Tests.m */,
 				08E14B60192DDD5100234E45 /* Supporting Files */,
 			);
+			name = "02-SQLite的封装Tests";
 			path = "01-SQLite的基本使用Tests";
 			sourceTree = "<group>";
 		};
 		08E14B60192DDD5100234E45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08E14B61192DDD5100234E45 /* 01-SQLite的基本使用Tests-Info.plist */,
+				08E14B61192DDD5100234E45 /* 02-SQLite的封装Tests-Info.plist */,
 				08E14B62192DDD5100234E45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08E14B36192DDD5100234E45 /* 01-SQLite的基本使用 */ = {
+		08E14B36192DDD5100234E45 /* 02-SQLite的封装 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08E14B69192DDD5100234E45 /* Build configuration list for PBXNativeTarget "01-SQLite的基本使用" */;
+			buildConfigurationList = 08E14B69192DDD5100234E45 /* Build configuration list for PBXNativeTarget "02-SQLite的封装" */;
 			buildPhases = (
 				08E14B33192DDD5100234E45 /* Sources */,
 				08E14B34192DDD5100234E45 /* Frameworks */,
@@ -167,14 +183,14 @@
 			);
 			dependencies = (
 			);
-			name = "01-SQLite的基本使用";
+			name = "02-SQLite的封装";
 			productName = "01-SQLite的基本使用";
-			productReference = 08E14B37192DDD5100234E45 /* 01-SQLite的基本使用.app */;
+			productReference = 08E14B37192DDD5100234E45 /* 02-SQLite的封装.app */;
 			productType = "com.apple.product-type.application";
 		};
-		08E14B57192DDD5100234E45 /* 01-SQLite的基本使用Tests */ = {
+		08E14B57192DDD5100234E45 /* 02-SQLite的封装Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08E14B6C192DDD5100234E45 /* Build configuration list for PBXNativeTarget "01-SQLite的基本使用Tests" */;
+			buildConfigurationList = 08E14B6C192DDD5100234E45 /* Build configuration list for PBXNativeTarget "02-SQLite的封装Tests" */;
 			buildPhases = (
 				08E14B54192DDD5100234E45 /* Sources */,
 				08E14B55192DDD5100234E45 /* Frameworks */,
@@ -185,9 +201,9 @@
 			dependencies = (
 				08E14B5E192DDD5100234E45 /* PBXTargetDependency */,
 			);
-			name = "01-SQLite的基本使用Tests";
+			name = "02-SQLite的封装Tests";
 			productName = "01-SQLite的基本使用Tests";
-			productReference = 08E14B58192DDD5100234E45 /* 01-SQLite的基本使用Tests.xctest */;
+			productReference = 08E14B58192DDD5100234E45 /* 02-SQLite的封装Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08E14B32192DDD5100234E45 /* Build configuration list for PBXProject "01-SQLite的基本使用" */;
+			buildConfigurationList = 08E14B32192DDD5100234E45 /* Build configuration list for PBXProject "02-SQLite的封装" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08E14B36192DDD5100234E45 /* 01-SQLite的基本使用 */,
-				08E14B57192DDD5100234E45 /* 01-SQLite的基本使用Tests */,
+				08E14B36192DDD5100234E45 /* 02-SQLite的封装 */,
+				08E14B57192DDD5100234E45 /* 02-SQLite的封装Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				08E14B4B192DDD5100234E45 /* IWAppDelegate.m in Sources */,
+				08E14B76192DEB4300234E45 /* IWStudent.m in Sources */,
 				08E14B47192DDD5100234E45 /* main.m in Sources */,
 				08E14B51192DDD5100234E45 /* IWViewController.m in Sources */,
+				08E14B73192DEB1200234E45 /* IWStudentTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		08E14B5E192DDD5100234E45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08E14B36192DDD5100234E45 /* 01-SQLite的基本使用 */;
+			target = 08E14B36192DDD5100234E45 /* 02-SQLite的封装 */;
 			targetProxy = 08E14B5D192DDD5100234E45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +396,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "01-SQLite的基本使用/01-SQLite的基本使用-Prefix.pch";
-				INFOPLIST_FILE = "01-SQLite的基本使用/01-SQLite的基本使用-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "01-SQLite的基本使用/02-SQLite的封装-Info.plist";
+				PRODUCT_NAME = "02-SQLite的封装";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "01-SQLite的基本使用/01-SQLite的基本使用-Prefix.pch";
-				INFOPLIST_FILE = "01-SQLite的基本使用/01-SQLite的基本使用-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "01-SQLite的基本使用/02-SQLite的封装-Info.plist";
+				PRODUCT_NAME = "02-SQLite的封装";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +431,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "01-SQLite的基本使用Tests/01-SQLite的基本使用Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "01-SQLite的基本使用Tests/02-SQLite的封装Tests-Info.plist";
+				PRODUCT_NAME = "02-SQLite的封装Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +449,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "01-SQLite的基本使用/01-SQLite的基本使用-Prefix.pch";
-				INFOPLIST_FILE = "01-SQLite的基本使用Tests/01-SQLite的基本使用Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "01-SQLite的基本使用Tests/02-SQLite的封装Tests-Info.plist";
+				PRODUCT_NAME = "02-SQLite的封装Tests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08E14B32192DDD5100234E45 /* Build configuration list for PBXProject "01-SQLite的基本使用" */ = {
+		08E14B32192DDD5100234E45 /* Build configuration list for PBXProject "02-SQLite的封装" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08E14B67192DDD5100234E45 /* Debug */,
@@ -450,21 +468,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08E14B69192DDD5100234E45 /* Build configuration list for PBXNativeTarget "01-SQLite的基本使用" */ = {
+		08E14B69192DDD5100234E45 /* Build configuration list for PBXNativeTarget "02-SQLite的封装" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08E14B6A192DDD5100234E45 /* Debug */,
 				08E14B6B192DDD5100234E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		08E14B6C192DDD5100234E45 /* Build configuration list for PBXNativeTarget "01-SQLite的基本使用Tests" */ = {
+		08E14B6C192DDD5100234E45 /* Build configuration list for PBXNativeTarget "02-SQLite的封装Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08E14B6D192DDD5100234E45 /* Debug */,
 				08E14B6E192DDD5100234E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
